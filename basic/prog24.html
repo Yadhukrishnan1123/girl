@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+       
+        a:link{color: green;} /* unvisited */
+        a:visited{color: red;}
+        a:active{color: black;}/* link il click cheyth load avunna time il oru color kanum */
+        a:hover{color: aqua;}
+
+        input:focus{background-color: aqua;}/* input box il "click" cheythal oru color varum. focus input nu mathre work avollu */
+
+
+        h1::before{content: '------------';
+                   color: aqua;}
+
+        h1::after{content: '*******';
+                   color: yellow;}
+        
+
+        p::first-letter{color: red;
+        font-size: 50px;}
+
+        p::first-line{color: violet;}
+
+        p::selection{background-color: yellow;/*aa p ye select cheyyumbo bg color marum */
+        color: red;}/* aa p ye select cheyyumbo text color marum */
+
+        li::marker{color: blue;}/* li de points blue kuth avum, ee pseudo element list nu mathre idan kayyollu  */
+    </style>
+</head>
+
+<body>
+    <h1>pseudo element</h1>
+    <a href="https://www.bing.com/search?pglt=41&q=luminar+technolab&cvid=6b8a628814f84a93a33ba1ffb6266962&gs_lcrp=EgZjaHJvbWUqBggBEAAYQDIGCAAQRRg5MgYIARAAGEAyBggCEAAYQDIGCAMQABhAMgYIBBAAGEAyBggFEAAYQDIGCAYQABhAMgYIBxAuGEAyBggIEAAYQNIBCDU3NjlqMGoxqAIAsAIA&FORM=ANSPA1&PC=HCTS" target="_blank">luminar</a><br>
+
+    <input type="text">
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et tempora possimus culpa, rerum perferendis aspernatur impedit reprehenderit! Possimus, illo delectus non corrupti officia ut nemo dolorem laboriosam veritatis porro?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et tempora possimus culpa, rerum perferendis aspernatur impedit reprehenderit! Possimus, illo delectus non corrupti officia ut nemo dolorem laboriosam veritatis porro?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et tempora possimus culpa, rerum perferendis aspernatur impedit reprehenderit! Possimus, illo delectus non corrupti officia ut nemo dolorem laboriosam veritatis porro?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et tempora possimus culpa, rerum perferendis aspernatur impedit reprehenderit! Possimus, illo delectus non corrupti officia ut nemo dolorem laboriosam veritatis porro?</p>
+    </div>
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+</body>
+</html>

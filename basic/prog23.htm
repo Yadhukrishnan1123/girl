@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+<style>
+    :root{--x:green}/* x global variable aanu */  /* x,y okke oru example letter aanu */
+    h1{color: var(--x);}
+    p{  --y:50px;
+        color: var(--x);
+        font-size: var(--y);}/* y local variable aanu. ee y p kku mathre work avollu. h1 nu apply cheyyan pattilla */
+
+</style>
+</head>
+<body>
+    <h1>heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumque eos ratione provident asperiores? Dignissimos maiores odio, reprehenderit sed beatae fugiat corrupti pariatur sapiente temporibus voluptas eveniet excepturi aut id.</p>
+    
+</body>
+</html>

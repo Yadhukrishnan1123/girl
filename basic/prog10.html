@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL</title>
+    <style>
+        p{
+            border: 7px solid red;
+        }
+        #dotted{
+            border: 7px dotted red ;
+        }
+        #dashed{
+            border: 7px dashed red ;
+        }
+        #double{
+            border: 7px double red ;
+            padding-bottom: 50px;
+        }
+        #groove{
+            border: 70px groove red ;
+            padding-right: 50px;
+        }
+        #ridge{
+            border: 70px ridge red ;
+            padding-left: 50px;
+        }
+        #inset{
+            border: 70px inset red ;
+            padding-top: 20px;
+            padding-bottom: 80px;
+            padding-right: 40;
+            padding-left: 120px;
+            margin: 50px 20px 30px 40px; /*Same as of padding*/
+            /* or can be written as padding: 20px 40px 80px 120px; ie,top,right,bottom,left*/
+            /* padding:100px 20px; here first one top&bottom,second value as left and right */
+        }
+        #outset{
+            border: 70px inset red ;
+            padding: 50px;
+            margin: 50px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="dotted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="dashed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="double">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="groove">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="ridge">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="inset">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+    <p id="outset">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolorem in architecto ea nam repellendus molestiae sit alias ut necessitatibus quaerat, quidem nemo laudantium, dolorum excepturi facilis temporibus, harum a!</p>
+</body>
+</html>

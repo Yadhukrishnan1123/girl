@@ -1,0 +1,29 @@
+#main{background-image: url(https://elements-video-cover-images-0.imgix.net/files/a254a445-1881-4322-a48d-ab8c488fc0ef/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=8a9e944987c293fd4bfc714a6a639491);
+width: 100%;
+height: 100vh;}
+#sub{float: right;}
+#green{height: 100px;
+width: 50vh;
+margin-top: 55%;
+animation: move
+3s infinite;}
+
+
+
+@keyframes move{
+  
+    100%{
+        transform: translateX(-350%);
+    }}
+
+    #jeep{height: 300px;
+    width: 300px;
+margin-top: 30%;
+animation: moving
+3s infinite;}
+
+@keyframes moving{
+  
+    100%{
+        transform: translateX(450%);
+    }}

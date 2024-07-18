@@ -1,0 +1,47 @@
+<!-- qn :
+ 600 px vare p mathram display cheyyuka
+ 600-992px vare img mathram display cheyyuka
+ 992 nu molil img nu background ayitt p varanam -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<style>
+@media(max-width:600px){/* min means muthal, max means vare. angane nne padikkuka illel marakkum. */
+    img{display: none;}
+}
+
+@media(min-width:601px){
+    p{display: none;}
+}
+
+@media(min-width:993px){
+    div{position: relative;}
+    img{
+        position: absolute;
+        display: block;/* ---------------------------------------- */
+    }
+    p{position: absolute;
+    font-size: 50px;
+color: white;
+display: block;}
+}
+
+   
+        
+      
+
+</style>
+<body>
+    <div>
+        
+        <img src="https://th.bing.com/th/id/OIP.Z_PIeIRDajXPmZHROt-T_QHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="no image">
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt eveniet facilis voluptate accusantium harum laboriosam, dolore, quasi tempore et quisquam cumque quia velit alias odio porro sint commodi enim. Facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, consequuntur earum ex vero quibusdam et ab beatae quod delectus explicabo inventore obcaecati nulla adipisci? Voluptatum vero aut veniam eaque praesentium!</p>
+        
+    </div>
+</body>
+</html>

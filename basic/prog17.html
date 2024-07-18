@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        #main{
+            width: 100%;
+            height: 100vh;/* 100vh means 100% pole nne , ie, screen nu correct fullsize ayitt varum  */
+            display: flex;
+            /* child content horizontally nilkan */
+            align-items: center; /* content vertically nilkan */
+        }
+        #sub{
+            border: 5px solid rebeccapurple;
+            background-color: aqua;
+            width: 300px;
+            height: 200px;
+            padding: 10px;
+            transform: translateX(300px);/* athine korach right lott neekkan */
+            transform: scale(-1);/* size koottanum kurakkanum, negative ayaal thala thiriyum */
+            transform: rotate(18deg);
+        }
+    </style>
+</head>
+<body>
+   <div id="main">
+    <div id="sub">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, odio deserunt. Nobis dicta non nam consequuntur fugit tenetur, exercitationem cumque iusto? Deserunt ullam libero quaerat animi earum laboriosam facere soluta?</p>
+    </div>
+   </div> 
+</body>
+</html>

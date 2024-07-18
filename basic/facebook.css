@@ -1,0 +1,30 @@
+h1{color: blue;
+text-align: center;}
+
+div{margin-left: 565px;
+     width: 330px;
+     height: 260px;
+     border: 2px solid;
+     text-align: center;
+     background-color: white;
+}
+
+
+h3{background-color: white;}
+
+input{background-color: white;
+    text-align: center;
+background-color: white;
+height: 30px;
+width: 280px;}
+ 
+#input2{width: 280px;
+    height: 30px;
+margin-top: 15px;}
+
+button{background-color: blue; margin-top: 7px;
+width: 290px;
+height: 40px;
+margin-top: 15px;}
+
+a{text-decoration: none;}
